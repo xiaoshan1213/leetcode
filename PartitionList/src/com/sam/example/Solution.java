@@ -16,6 +16,7 @@ public class Solution {
                 temp=temp.next;
             }
         }
+        after.next=null;
         temp.next=afterHead.next;
         return beforeHead.next;
     }
